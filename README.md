@@ -2,7 +2,7 @@
 <h1 align="center">Hi 👋, I'm Hit Patel</h1>
 <h3 align="center">A passionate frontend developer from London</h3>
 
-
+<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=h1tpatel" alt="h1tpatel" /></a> </p>
 
 <p align="left"> <a href="https://twitter.com/h1t_patel" target="blank"><img src="https://img.shields.io/twitter/follow/h1t_patel?logo=twitter&style=for-the-badge" alt="h1t_patel" /></a> </p>
 
