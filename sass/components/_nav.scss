@@ -1,0 +1,48 @@
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(18, 18, 62);
+
+    ul {
+        display: flex;
+        justify-content: center;
+        background-color: rgb(18, 18, 62);
+
+        li {
+            list-style: none;
+            margin: 0 23px;
+            background-color: rgb(18, 18, 62);
+
+            a {
+                text-decoration: none;
+                color: white;
+                background-color: rgb(18, 18, 62);
+                position: relative;
+                padding-bottom: 2px; 
+                display: inline-block; 
+                transition: color 0.3s; 
+
+                &:hover {
+                    color: white; 
+                }
+
+                &::before {
+                    content: '';
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    width: 0;
+                    height: 2px;
+                    background-color: white; 
+                    transition: width 0.3s;
+                }
+            }
+        }
+    }
+}
+
+nav ul li a.hvr-underline-from-left:hover::before {
+    width: 100%; 
+}
