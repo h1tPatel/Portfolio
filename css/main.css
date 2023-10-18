@@ -3,23 +3,30 @@
     padding: 0;
     background-color: rgb(0, 0, 33);
     color: white;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     
 }
 
 .main-content{
     margin-top: 150px;
 }
-
+.hero-img
+{
+    margin-top: 150px;
+}
 .main-nav{
     margin-left: 200px;
 }
 
-.sizing{
-    height: 140px;
-    width: 170px;
-    
+
+.work-title{
+    margin-top: 30px;
 }
+
+.s-line-p{
+    margin-top: 30px;
+}
+
 
 nav {
     display: flex;
@@ -69,16 +76,21 @@ nav ul li a:hover {
 }
 
 nav ul li a.hvr-underline-from-left:hover::before {
-    width: 100%; /* On hover, the underline expands to full width */
+    width: 100%; 
 }
 
 
 .left {
     font-size: 1.5rem;
     background-color: rgb(18, 18, 62);
+    font-weight: 600;
+    
 }
 
-
+.left p{
+    background-color: #14133f;
+    font-family: 'Gabarito', sans-serif;
+}
 
 .button-30 {
   align-items: center;
@@ -135,6 +147,10 @@ nav ul li a.hvr-underline-from-left:hover::before {
     margin-top: 30px;
 }
 
+.push{
+    height: 132px;
+}
+
 
 .footer {
 
@@ -142,7 +158,9 @@ nav ul li a.hvr-underline-from-left:hover::before {
     padding: 23px 122px;
     justify-content: space-evenly;
     background-color: #0e0e1a;
-    margin-top: 40px;
+    margin-top: 3.5%;
+    height: 200px;
+    flex-shrink: 0;
 }
 .footer-first{
     background-color: #0e0e1a;
@@ -180,4 +198,27 @@ footer .footer-rights {
     color: gray;
     padding: 12px 0;
     background-color: #0e0e1a;
+}
+
+
+.hamburger {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .menu {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+        font-size: 24px;
+        cursor: pointer;
+        background-color: #14133f;
+    }
+
+    
+    .menu.active {
+        display: block;
+    }
 }

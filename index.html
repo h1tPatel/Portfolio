@@ -14,9 +14,12 @@
 
   <header>
     <nav>
-        <div class="left">Hit's Portfolio</div>
+        <div class="left"><p>Hit's Portfolio</p></div>
         <div class="right">
-            <ul>
+            <div class="hamburger" onclick="toggleMenu()">
+                &#9776; 
+            </div>
+            <ul class="menu">
                 <li><a href="index.html" class="hvr-underline-from-left">Home</a></li>
                 <li><a href="about.html " class="hvr-underline-from-left">About</a></li>
                 <li><a href="work.html" class="hvr-underline-from-left">Work</a></li>
@@ -33,7 +36,7 @@
         
       
       
-          <div class=" l-col-start-1 l-col-end-6 m-col-start-1 m-col-end-6 col-span-full main-content">
+          <div class=" l-col-start-1 l-col-end-6 m-col-start-1 m-col-end-6 col-span-full hero-img">
             <img src="./images/my-image.JPG" alt="Hit Patel" id="hero-img">
           </div>
       
@@ -57,7 +60,9 @@
             <button class="button-30">Download Resume</button>
             
           </div>
+          
         </div>
+        <div class="push"></div>
 <footer class="footer-all">
           <div class="footer">
               <div class="footer-first">
@@ -76,8 +81,10 @@
               Copyright &#169; hitpatelportfolio.com | All rights reserved.
           </div>
 </footer>
-        
-      
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
     <script src="./js/main.js"></script>
 </body>
 </html>
