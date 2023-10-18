@@ -1,0 +1,53 @@
+.work-title, .s-line-p, .blog-title, .blog-content {
+    margin-top: 30px;
+}
+
+.push {
+    height: 132px;
+}
+
+.footer {
+    display: flex;
+    padding: 23px 122px;
+    justify-content: space-evenly;
+    background-color: #0e0e1a;
+    margin-top: 3.5%;
+    height: 200px;
+    flex-shrink: 0;
+
+    &>div {
+        width: 223px;
+        background-color: #0e0e1a;
+    }
+
+    ul {
+        list-style: none;
+        display: flex;
+        background-color: #0e0e1a;
+
+        li {
+            list-style: none;
+            background-color: #0e0e1a;
+            padding: 20px;
+
+            a {
+                display: flex;
+                background-color: #0e0e1a;
+            }
+        }
+    }
+
+    h3 {
+        background-color: #0e0e1a;
+        margin-top: 20px;
+    }
+}
+.footer-second{
+    margin-left: 10px;
+}
+footer .footer-rights {
+    text-align: center;
+    color: gray;
+    padding: 12px 0;
+    background-color: #0e0e1a;
+}

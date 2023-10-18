@@ -1,0 +1,21 @@
+.hamburger {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .menu {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+        font-size: 24px;
+        cursor: pointer;
+        background-color: #14133f;
+    }
+
+    
+    .menu.active {
+        display: block;
+    }
+}
