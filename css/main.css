@@ -1,20 +1,183 @@
 *{
     margin: 0;
     padding: 0;
+    background-color: rgb(0, 0, 33);
+    color: white;
+    font-family: 'Poppins', sans-serif;
     
 }
 
 .main-content{
-    margin-top: 200px;
+    margin-top: 150px;
 }
 
 .main-nav{
-    position: fixed;
+    margin-left: 200px;
 }
-
 
 .sizing{
     height: 140px;
     width: 170px;
     
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(18, 18, 62);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(18, 18, 62);
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+    background-color: rgb(18, 18, 62);
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(18, 18, 62);
+    text-decoration: none;
+    position: relative;
+    padding-bottom: 2px; 
+    display: inline-block; 
+    transition: color 0.3s; 
+}
+
+nav ul li a::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: white; 
+    transition: width 0.3s;
+}
+
+nav ul li a:hover {
+    color: white; 
+}
+
+nav ul li a.hvr-underline-from-left:hover::before {
+    width: 100%; /* On hover, the underline expands to full width */
+}
+
+
+.left {
+    font-size: 1.5rem;
+    background-color: rgb(18, 18, 62);
+}
+
+
+
+.button-30 {
+  align-items: center;
+  appearance: none;
+  background-color: #FCFCFD;
+  border-radius: 4px;
+  border-width: 0;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #36395A;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+  margin-top: 45px;
+}
+
+.button-30:focus {
+  box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+}
+
+.button-30:hover {
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.button-30:active {
+  box-shadow: #D6D6E7 0 3px 7px inset;
+  transform: translateY(2px);
+}
+
+
+.blog-title{
+    margin-top: 30px;
+}
+
+.blog-content{
+    margin-top: 30px;
+}
+
+
+.footer {
+
+    display: flex;
+    padding: 23px 122px;
+    justify-content: space-evenly;
+    background-color: #0e0e1a;
+    margin-top: 40px;
+}
+.footer-first{
+    background-color: #0e0e1a;
+}
+
+.footer ul {
+    list-style: none;
+    display: flex;
+    background-color: #0e0e1a;
+}
+.footer ul li {
+    list-style: none;
+    background-color: #0e0e1a;
+}
+.footer h3{
+    background-color: #0e0e1a;
+}
+
+.footer ul li a{
+    display: flex;
+    
+    background-color: #0e0e1a;
+}
+
+.footer>div {
+    width: 223px;
+    background-color: #0e0e1a;
+}
+.footer-second ul li {
+    margin-right: 30px;
+}
+
+footer .footer-rights {
+    text-align: center;
+    color: gray;
+    padding: 12px 0;
+    background-color: #0e0e1a;
 }
