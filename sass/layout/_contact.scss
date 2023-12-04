@@ -23,8 +23,9 @@ input:valid ~ label,
 textarea:valid ~ label {
     font-size: 0.75em;
     color: #999;
-    top: -5px;
+    top: -22px;
     transition: all 0.225s ease;
+
 }
 
 .styled-input {
@@ -34,6 +35,11 @@ textarea:valid ~ label {
     position: relative;
     border-radius: 4px;
 }
+input:focus ~ label,
+textarea:focus ~ label {
+    display: none;
+}
+
 
 @media only screen and (max-width: 768px) {
     .styled-input {

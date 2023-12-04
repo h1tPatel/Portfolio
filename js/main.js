@@ -25,7 +25,6 @@ console.log("JS file is connected");
     }
 
 
-
     // document.addEventListener("DOMContentLoaded", function() {
     //     const text = document.querySelector(".main-content h1").textContent;
     //     document.querySelector(".main-content h1").textContent = '';
