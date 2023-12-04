@@ -6,6 +6,7 @@
     <title>Contact</title>
     <link rel="stylesheet" href="./css/grid.css">
     <link rel="stylesheet" href="./css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
 </head>
 <body >
     <header>
@@ -13,26 +14,55 @@
             <div class="left">Hit's Portfolio</div>
             <div class="right">
                 <ul>
-                    <li><a href="/" class="hvr-underline-from-left">Home</a></li>
-                    <li><a href="/" class="hvr-underline-from-left">About</a></li>
-                    <li><a href="/" class="hvr-underline-from-left">Services</a></li>
-                    <li><a href="/" class="hvr-underline-from-left">Projects</a></li>
-                    <li><a href="/" class="hvr-underline-from-left">Contact Me</a></li>
+                    <li><a href="index.html" class="hvr-underline-from-left">Home</a></li>
+                    <li><a href="about.html" class="hvr-underline-from-left">About</a></li>
+                    <li><a href="work.html" class="hvr-underline-from-left">Work</a></li>
+                    <li><a href="blog.html" class="hvr-underline-from-left">Blog</a></li>
+                    <li><a href="contact.html" class="hvr-underline-from-left">Contact Me</a></li>
                 </ul>
             </div>
         </nav>
     </header>
-    <div class="grid-con">
-        <h1 class="l-col-start-6 l-col-end-9 m-col-start-6 m-col-end-9 work-title">Contact me</h1>
-    </div>
-    <div class="grid-con work-title">
-    <div class="l-col-start-1 l-col-end-6 m-col-start-1 m-col-end-6 box">
-            
-    </div>
 
-    <div class="l-col-start-7 l-col-end-11 m-col-start-start-7 m-col-end-11 box"></div>
-    
-    </div>
+    <div class="container">
+	<div class="row">
+			<h1>Contact me</h1>
+	</div>
+	<div class="row">
+			<h4>I'd love to hear from you!</h4>
+	</div>
+	<div class="row input-container">
+			<div class="col-xs-12">
+				<div class="styled-input wide">
+					<input type="text" required />
+					<label>Name</label> 
+				</div>
+			</div>
+			<div class="col-md-6 col-sm-12">
+				<div class="styled-input">
+					<input type="text" required />
+					<label>Email</label> 
+				</div>
+			</div>
+			<div class="col-md-6 col-sm-12">
+				<div class="styled-input" style="float:right;">
+					<input type="text" required />
+					<label>Phone Number</label> 
+				</div>
+			</div>
+			<div class="col-xs-12">
+				<div class="styled-input wide">
+					<textarea required></textarea>
+					<label>Message</label>
+				</div>
+			</div>
+			<div class="col-xs-12">
+				<div class="btn-lrg submit-btn">Send Message</div>
+			</div>
+	</div>
+</div>
+
+
     <footer class="footer-all">
         <div class="footer">
             <div class="footer-first">
@@ -51,5 +81,6 @@
             Copyright &#169; hitpatelportfolio.com | All rights reserved.
         </div>
 </footer>
+<script src="./js/main.js"></script>
 </body>
 </html>
