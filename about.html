@@ -11,23 +11,21 @@
 
 <body>
 
-<header>
-    <nav>
-        <div class="left">Hit's Portfolio</div>
-        <div class="right">
-            <div class="hamburger" onclick="toggleMenu()">
-                &#9776;
+    <header>
+        <nav>
+            <div class="left">Hit's Portfolio</div>
+            <div class="right">
+                <div class="hamburger">&#9776;</div>
+                <ul class="menu">
+                    <li><a href="index.html" class="hvr-underline-from-left">Home</a></li>
+                    <li><a href="about.html" class="hvr-underline-from-left">About</a></li>
+                    <li><a href="work.html" class="hvr-underline-from-left">Work</a></li>
+                    <li><a href="blog.html" class="hvr-underline-from-left">Blog</a></li>
+                    <li><a href="contact.html" class="hvr-underline-from-left">Contact Me</a></li>
+                </ul>
             </div>
-            <ul class="menu">
-                <li><a href="index.html" class="hvr-underline-from-left">Home</a></li>
-                <li><a href="about.html" class="hvr-underline-from-left">About</a></li>
-                <li><a href="work.html" class="hvr-underline-from-left">Work</a></li>
-                <li><a href="blog.html" class="hvr-underline-from-left">Blog</a></li>
-                <li><a href="contact.html" class="hvr-underline-from-left">Contact Me</a></li>
-            </ul>
-        </div>
-    </nav>
-</header>
+        </nav>
+    </header>
     <div class="grid-con">
     <h1 class="l-col-start-6 l-col-end-9 m-col-start-6 m-col-end-9 col-span-full work-title">About Me</h1>
     </div>
@@ -37,7 +35,7 @@
     <br>
     <div class="grid-con">
 
-        <p class="l-col-start-1 l-col-end-7 m-col-start-1 m-col-end-7 col-span-full">
+        <p class= "animate-text l-col-start-1 l-col-end-7 m-col-start-1 m-col-end-7 col-span-full">
             I'm a passionate student pursuing Interactive Media Design, specializing as a frontend developer.
              My love for crafting immersive digital experiences extends beyond code—I enjoy sculpting 3D models using Cinema 4D.
               Throughout my academic journey, I've undertaken numerous class projects, leveraging my skills to create engaging and innovative solutions
@@ -65,24 +63,29 @@
 
 
 <div class="push"></div>
-    <footer class="footer-all">
-        <div class="footer">
-            <div class="footer-first">
-                <h3>Hit's Devloper Portfolio</h3>
-            </div>
-            <div class="footer-second">
-                <ul class="menu">
-                    <li><a href="./index.html">Home</a></li>
-                    <li><a href="./about.html">About</a></li>
-                    <li><a href="./work.html">Services</a></li>
-                    <li><a href="./contact.html">Contact</a></li>
-                </ul>
-            </div>
-        </div>
-        <div class="footer-rights">
-            Copyright &#169; hitpatelportfolio.com | All rights reserved.
-        </div>
+<footer class="footer-all">
+          <div class="footer">
+              <div class="footer-first">
+                  <h3>Hit's Devloper Portfolio</h3>
+              </div>
+              <div class="footer-second">
+                  <ul >
+                      <li><a href="./index.html">Home</a></li>
+                      <li><a href="./about.html">About</a></li>
+                      <li><a href="./contact.html">Contact</a></li>
+                  </ul>
+              </div>
+          </div>
+          <div class="footer-social">
+            <a href="https://twitter.com/i/flow/login?redirect_after_login=%2Fh1t_patel"><img src="./images/twitter.png" alt="twitter"></a>
+            <a href="https://www.instagram.com/h1t_patel/"><img src="./images/instagram.png" alt="instagram"></a>
+            <a href="https://www.facebook.com/hit%20patel"><img src="./images/facebook.png" alt="facebook"></a>
+          </div>
+          <div class="footer-rights">
+              Copyright &#169; hitpatelportfolio.com | All rights reserved.
+          </div>
 </footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
 <script src="./js/main.js"></script>
 </body>
 </html>

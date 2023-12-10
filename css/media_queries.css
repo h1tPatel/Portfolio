@@ -15,4 +15,7 @@
   .menu.active {
     display: block;
   }
+  .footer-second ul li {
+    list-style: none;
+  }
 }/*# sourceMappingURL=media_queries.css.map */

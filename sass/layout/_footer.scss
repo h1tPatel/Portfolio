@@ -3,7 +3,7 @@
 }
 
 .push {
-    height: 95px;
+    height: 45px;
 }
 
 .footer {
@@ -55,4 +55,20 @@ footer .footer-rights {
 
 .blog-pad{
     margin-bottom: 30px;
+}
+
+
+.footer-social{
+    background-color: #0e0e1a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-social img{
+    background-color: #0e0e1a;
+    height: 50px;
+    float: right;
+    margin: 0 10px;
+  
 }
