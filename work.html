@@ -9,20 +9,23 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <nav>
-            <div class="left">Hit's Portfolio</div>
-            <div class="right">
-                <ul>
-                    <li><a href="index.html" class="hvr-underline-from-left">Home</a></li>
-                    <li><a href="about.html " class="hvr-underline-from-left">About</a></li>
-                    <li><a href="work.html" class="hvr-underline-from-left">Work</a></li>
-                    <li><a href="blog.html"class="hvr-underline-from-left">Blog</a></li>
-                    <li><a href="contact.html"class="hvr-underline-from-left">Contact Me</a></li>
-                </ul>
+<header>
+    <nav>
+        <div class="left">Hit's Portfolio</div>
+        <div class="right">
+            <div class="hamburger" onclick="toggleMenu()">
+                &#9776;
             </div>
-        </nav>
-    </header>
+            <ul class="menu">
+                <li><a href="index.html" class="hvr-underline-from-left">Home</a></li>
+                <li><a href="about.html" class="hvr-underline-from-left">About</a></li>
+                <li><a href="work.html" class="hvr-underline-from-left">Work</a></li>
+                <li><a href="blog.html" class="hvr-underline-from-left">Blog</a></li>
+                <li><a href="contact.html" class="hvr-underline-from-left">Contact Me</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
     <div class="grid-con">
     <h1 class="l-col-start-6 l-col-end-9 m-col-start-6 m-col-end-9 col-span-full work-title">My Work</h1>
     <p class="l-col-start-4 l-col-end-10 m-col-start-5 m-col-end-10 col-span-full s-line-p">Here are some of my best projects which I've worked on !</p>
@@ -33,42 +36,46 @@
         <a href="./casestudy.html"><img src="./images/projects.jpg" alt=""></a>
     </div>
     <div class=" l-col-span-4 m-col-span-4 col-span-full ">
-        <img src="./images/projects.jpg" alt="">
+        <img src="./images/projects.jpg" alt="Project 2">
     </div>
     <div class=" l-col-span-4 m-col-span-4 col-span-full ">
-        <img src="./images/projects.jpg" alt="">
+        <img src="./images/projects.jpg" alt="Project 3">
     </div>
 </div>
 <div class="grid-con">
     <div class=" l-col-span-4 m-col-span-4 col-span-full ">
-        <img src="./images/projects.jpg" alt="">
+        <img src="./images/projects.jpg" alt="Project 4">
     </div>
     <div class=" l-col-span-4 m-col-span-4 col-span-full ">
-        <img src="./images/projects.jpg" alt="">
+        <img src="./images/projects.jpg" alt="Project 5">
     </div>
     <div class=" l-col-span-4 m-col-span-4 col-span-full ">
-        <img src="./images/projects.jpg" alt="">
+        <img src="./images/projects.jpg" alt="Project 6">
     </div>
 </div>
-
+<br>
+<br>
+<div class="grid-con">
+<p class="l-col-span-full m-col-span-full col-span-full"> I regularly post my blogs on <a href="www.blozoid.com">Blog Zoid</a>. please visit website to read more.</p>
+</div>
 
 <footer class="footer-all">
-    <div class="footer">
-        <div class="footer-first">
-            <h3>Hit's Devloper Portfolio</h3>
-        </div>
-        <div class="footer-second">
-            <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>Services</li>
-                <li>Contact</li>
-            </ul>
-        </div>
-    </div>
-    <div class="footer-rights">
-        Copyright &#169; hitpatelportfolio.com | All rights reserved.
-    </div>
+          <div class="footer">
+              <div class="footer-first">
+                  <h3>Hit's Devloper Portfolio</h3>
+              </div>
+              <div class="footer-second">
+                  <ul class="menu">
+                      <li><a href="./index.html">Home</a></li>
+                      <li><a href="./about.html">About</a></li>
+                      <li><a href="./work.html">Services</a></li>
+                      <li><a href="./contact.html">Contact</a></li>
+                  </ul>
+              </div>
+          </div>
+          <div class="footer-rights">
+              Copyright &#169; hitpatelportfolio.com | All rights reserved.
+          </div>
 </footer>
 <script src="./js/main.js"></script>
 </body>
