@@ -73,3 +73,54 @@ console.log("JS file is connected");
     menu.classList.toggle('active');
   }
 
+
+  (() => {
+    const form = document.querySelector("#contactForm");
+    const feedBack = document.querySelector("#feedback");
+
+    function regForm(event) {
+        event.preventDefault();
+        const thisform = event.currentTarget;
+        const url = "adduser.php";
+        console.log(thisform.elements.fname.value)
+        const formdata =
+            "&name=" + thisform.elements.name.value +
+            "&email=" + thisform.elements.email.value +
+            "&phoneNumber=" + thisform.phoneNumber.email.value +
+            "&message=" + thisform.message.message.value;
+        console.log(formdata);
+
+        fetch(url, {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/x-www-form-urlencoded"
+            },
+            body: formdata
+        })
+            .then(response => response.json())
+            .then(responseText => {
+                console.log(responseText);
+                feedBack.innerHTML = ''
+                if (responseText.errors) {
+                    responseText.errors.forEach(error => {
+                        const errorElement = document.createElement("p");
+                        errorElement.textContent = error;
+                        feedBack.appendChild(errorElement)
+                    });
+                } else {
+                    form.reset();
+                    const messageElement = document.createElement("p");
+                    messageElement.textContent = responseText.message;
+                    feedBack.appendChild(messageElement)
+                }
+            })
+            .catch(error => {
+                console.log(error);
+                const messageElement = document.createElement("p");
+                messageElement.textContent = "Whoops, it looks like your either using an older browser or not connected to the internet or our server is having issues. Sorry about that!";
+                feedBack.appendChild(messageElement);
+            });
+    }
+
+    form.addEventListener("submit", regForm)
+})();
