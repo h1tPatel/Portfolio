@@ -6,6 +6,8 @@
 
 <p align="left"> <a href="https://twitter.com/h1t_patel" target="blank"><img src="https://img.shields.io/twitter/follow/h1t_patel?logo=twitter&style=for-the-badge" alt="h1t_patel" /></a> </p>
 
+- Portfolio link - www.hitpatelportfolio.com
+  
 - 👨‍💻 All of my projects are available at [www.blogzoid.com](www.blogzoid.com)
 
 - 📝 I regularly write articles on [www.blogzoid.com](www.blogzoid.com)
