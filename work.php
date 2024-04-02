@@ -74,6 +74,80 @@ include('adduser.php');
     </div>
 <?php endforeach; ?>
 
+<div class="grid-con blog-content">
+    <div class=" l-col-start-1 l-col-end-7 m-col-start-1 m-col-end-7 col-span-full workpage-animation">
+        <a href="./casestudy2.html"><img src="./images/sixty6.png" alt="FoundationSixy6" class="animated-img"></a>
+    </div>
+    <div class=" l-col-start-7 l-col-end-13 m-col-start-7 m-col-end-13 col-span-full workpage-animation">
+        <a href="#earbuds-popup"><img src="./images/earbuds-main.jpg" alt="earbuds animation" class="animated-img"></a>
+    </div>
+</div>
+
+<div class="grid-con blog-content">
+    <div class=" l-col-start-1 l-col-end-7 m-col-start-1 m-col-end-7 col-span-full workpage-animation">
+        <a href="#titleseq-popup"><img src="./images/title-seq.png" alt="Title Sequence recreation" class="animated-img"></a>
+    </div>
+    <div class=" l-col-start-7 l-col-end-13 m-col-start-7 m-col-end-13 col-span-full workpage-animation">
+        <a href="#sportdata-popup"><img src="./images/sportdatavs.png" alt="sport data visualization" class="animated-img"></a>
+    </div>
+</div>
+
+<div class="grid-con blog-content">
+    <div class=" l-col-start-1 l-col-end-7 m-col-start-1 m-col-end-7 col-span-full workpage-animation">
+        <a target="_blank" href="https://github.com/hkpatel310/patel_harsh_patel_hit_oop_js"><img src="./images/oopjs.png" alt="oopjs" class="animated-img"></a>
+    </div>
+    <div class=" l-col-start-7 l-col-end-13 m-col-start-7 m-col-end-13 col-span-full workpage-animation">
+        <a target="_blank" href="https://github.com/hkpatel310/patel_harsh_patel_hit_Vue_js"><img src="./images/vue-js.png" alt="VUE JS" class="animated-img"></a>
+    </div>
+</div>
+
+
+
+
+<div class="popup" id="earbuds-popup">
+    <div class="popup-content">
+        <a href="#" class="close-btn">&times;</a>
+        <h2>Project Information for Earbuds</h2>
+        <br>
+        <p>
+            Hi, this is one of my school projects. I cinema 4D to create this 3D model of boAt earbuds. </p>
+        <div class="image-container">
+            <img src="./images/eb-1.jpg" alt="First Image">
+            <img src="./images/eb-2.jpg" alt="Second Image">
+            <img src="./images/eb-3.jpg" alt="Third Image">
+        </div>
+    </div>
+</div>
+
+<div class="popup" id="titleseq-popup">
+    <div class="popup-content">
+        <a href="#" class="close-btn">&times;</a>
+        <h2>ASUR - title sequence recreation</h2>
+        <br>
+        <div class="image-container">
+        <video controls>
+                <source src="video/title-sequence.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+</div>
+
+<div class="popup" id="sportdata-popup">
+    <div class="popup-content">
+        <a href="#" class="close-btn">&times;</a>
+        <h2>Sportdata Visualization</h2>
+        <br>
+        <div class="image-container">
+        <video controls>
+                <source src="video/sportdata.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+</div>
+
+
+
+
 
     <br>
     <br>
@@ -105,9 +179,9 @@ include('adduser.php');
             </div>
         </div>
         <div class="footer-social">
-            <a href="" target="_blank"><img src="./images/twitter.png" alt="twitter"></a>
-            <a href="" target="_blank"><img src="./images/instagram.png" alt="instagram"></a>
-            <a href="" target="_blank"><img src="./images/facebook.png" alt="facebook"></a>
+            <a href="https://twitter.com/i/flow/login?redirect_after_login=%2Fh1t_patel" target="_blank"><img src="./images/twitter.png" alt="twitter"></a>
+            <a href="https://www.instagram.com/h1t_patel/" target="_blank"><img src="./images/instagram.png" alt="instagram"></a>
+            <a href="https://www.facebook.com/hit.9191" target="_blank"><img src="./images/facebook.png" alt="facebook"></a>
         </div>
         <div class="footer-rights">
             Copyright &#169; hitpatelportfolio.com | All rights reserved.
